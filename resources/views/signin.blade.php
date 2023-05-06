@@ -36,7 +36,7 @@
                                 @endforeach
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-12">
                             <label for="password" class="form-label">Mot de passe</label>
                             <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Votre mot de passe" required autocomplete="new-password">
                             <div class="invalid-feedback">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary me-3">Se connecter</button>
-                            <small><a href="">Mot de passe oublié ?</a></small>
+                            <small>Pas de compte ? <a href="{{route('register')}}">Inscrivez-vous</a></small>
                         </div>
                     </form>
                 </div>
