@@ -30,7 +30,7 @@
                     <!-- Feature item-->
                     <div class="text-center">
                         <img src="assets/img/man-reading.jpg"  class="img-fluid mb-3" alt="">
-                        <h3 class="font-alt mb-4">Découvrez votre personnalité en quelques minutes !</h3>
+                        <h3 class="font-alt mb-4">Découvrez votre personnalité<br>en quelques minutes !</h3>
                         <p class="text-muted mb-0">Il vous fournit des informations détaillées et uniques qui peuvent vous aider à améliorer votre vie personnelle et professionnelle, avec plus de succès.</p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <!-- Feature item-->
                     <div class="text-center">
                         <img src="assets/img/undraw_projections.svg" style="width: 18rem" class="img-fluid mb-3" alt="">
-                        <h3 class="font-alt mb-4">Obtenez des informations précieuses sur votre vie</h3>
+                        <h3 class="font-alt mb-4">Obtenez des informations<br>précieuses sur votre vie</h3>
                         <p class="text-muted mb-0">90% des utilisateurs considèrent qu'ils ont pu prendre des mesures concrètes pour améliorer des domaines de leur vie personnelle et professionnelle.</p>
                     </div>
                 </div>

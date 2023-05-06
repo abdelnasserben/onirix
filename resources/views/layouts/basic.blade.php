@@ -30,12 +30,12 @@
                         <li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('about') }}">A propos</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('faq') }}">FAQ</a></li>
                     </ul>
-                    <button class="btn btn-success rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                    <a href="{{ route('login') }}" class="btn btn-success rounded-pill px-3 mb-2 mb-lg-0">
                         <span class="d-flex align-items-center">
                             <i class="bi-chat-text-fill me-2"></i>
-                            <span class="small">Démarrer le test</span>
+                            <span class="small">Se connecter</span>
                         </span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </nav>
