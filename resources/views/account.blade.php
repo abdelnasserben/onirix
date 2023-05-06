@@ -9,8 +9,8 @@
                     <img src="http://techydevs.com/demos/themes/html/disilab-demo/disilab/images/img4.jpg" alt="" class="img-profile img-border shadow-own-sm">
                 </div>
                 <div class="col-auto mx-0 px-0">
-                    <h6 class="h6 mb-2">Arden Smith</h6>
-                    <p class="small mb-1">United States, member since 11 years ago</p>
+                    <h6 class="h6 mb-2 text-uppercase">{{$user->name}}</h6>
+                    <p class="small mb-1">Membre depuis le {{date_format($user->created_at, "d/m/Y")}}</p>
                     <span>2344</span>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             <div class="border rounded px-3 py-4 text-center mb-4">
                 <div class="d-flex flex-column align-items-center">
                     <p class="text-muted mb-4">Dites-nous ce qui vous plait et ce qu’on pourrait améliorer afin<br>de vous offrir la meilleure expérience possible sur Dabel.</p>
-                    <a href="" target="_blank" class="d-block w-50 link-hover-light rounded border d-flex justify-content-between align-items-end pt-3 px-3 mb-4">
+                    <a href="" target="_blank" class="d-block w-50 text-decoration-none rounded border d-flex justify-content-between align-items-end pt-3 px-3 mb-4">
                         <p class="text-muted fw-bold">Donner mon avis <i class="bi bi-box-arrow-up-right ms-1"></i></p>
                         <p><i class="bi bi-chevron-right"></i></p>
                     </a>
@@ -51,7 +51,7 @@
                             <i class="bi bi-info-circle-fill d-block col-auto text-primary ic-md"></i>
                             <div class="col"> 
                                 <p class="m-0 text-start">Vous avez une question ou besoin d’un suivi individuel sur un sujet ?<br>Trouvez de nombreuses réponses dans 
-                                    le <a class="text-decoration-underline text-dark fw-bold" href="Centre d’aide">centre d'aide</a> ou <a class="text-decoration-underline text-dark fw-bold" href="">contactez-nous</a>.</p>
+                                    le <a class="text-decoration-underline text-dark fw-bold" href="Centre d’aide">centre d'aide</a> ou <a class="text-decoration-underline text-dark fw-bold" href="{{route('contact')}}">contactez-nous</a>.</p>
                             </div>
                         </div>
                     </div>
