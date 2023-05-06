@@ -19,4 +19,13 @@ Route::controller(AppController::class)->group(function () {
     Route::get('/about', 'about')->name('about');
     Route::get('/faq', 'faq')->name('faq');
     Route::get('/contact', 'contact')->name('contact');
+    Route::get('/account', 'account')
+        ->middleware(['auth'])
+        ->name('account');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

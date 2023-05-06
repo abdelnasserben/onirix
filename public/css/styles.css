@@ -11469,6 +11469,10 @@ input[type="file"] {
   pointer-events: none;
 }
 
+.form-control.is-invalid{
+  border-color: var(--bs-red) !important;
+}
+
 
 .nav-pills .nav-link {
   font-size: .95rem;

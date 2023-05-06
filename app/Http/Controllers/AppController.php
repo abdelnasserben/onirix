@@ -21,4 +21,8 @@ class AppController extends Controller
     public function contact() {
         return view('contact');
     }
+
+    public function account() {
+        return view('account');
+    }
 }
