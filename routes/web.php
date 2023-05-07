@@ -19,6 +19,8 @@ Route::controller(AppController::class)->group(function () {
     Route::get('/about', 'about')->name('about');
     Route::get('/faq', 'faq')->name('faq');
     Route::get('/contact', 'contact')->name('contact');
+    Route::get('/interview', 'interview')->name('interview');
+    Route::get('/test', 'test')->name('test');
     Route::get('/account', 'account')
         ->middleware(['auth'])
         ->name('account');

@@ -10,7 +10,7 @@
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
                         <h1 class="display-1 lh-1 mb-3">Vos rêves en disent plus.</h1>
                         <p class="lead fw-normal text-muted mb-5">Avec ce test de personnalité, vous découvrirez ce que votre esprit essaie de te communiquer à travers vos rêves.</p>
-                        <a class="btn btn-danger text-uppercase py-3 px-4 rounded" href="https://startbootstrap.com/theme/new-age" target="_blank">Lancer le test</a>
+                        <a class="btn btn-danger text-uppercase py-3 px-4 rounded" href="{{route('interview')}}">Lancer le test</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -51,7 +51,7 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-xl-8">
                     <div class="h2 fs-1 text-white mb-4">"Les gens adorent passer ce test. Ayez une idée de votre avenir à travers vos aspirations"</div>
-                    <a href="#" class="btn btn-light text-uppercase">Commencer le test</a>
+                    <a href="{{route('interview')}}" class="btn btn-light text-uppercase">Commencer le test</a>
                 </div>
             </div>
         </div>

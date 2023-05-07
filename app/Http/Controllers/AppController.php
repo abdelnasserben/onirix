@@ -28,4 +28,12 @@ class AppController extends Controller
             'user' => Auth::user()
         ]);
     }
+
+    public function interview() {
+        return view('interview');
+    }
+
+    public function test() {
+        return view('test');
+    }
 }
