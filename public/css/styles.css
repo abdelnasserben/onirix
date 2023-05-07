@@ -11489,3 +11489,7 @@ input[type="file"] {
   color: var(--main-color) !important;
   border-color: var(--main-color);
 }
+
+.ic-md {
+  font-size: 2rem;
+}
