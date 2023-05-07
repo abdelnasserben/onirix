@@ -27,31 +27,32 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('about') }}">A propos</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('faq') }}">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('contact') }}">Aide</a></li>
                     </ul>
-                    @auth
-                    <a href="{{ route('account') }}" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
-                        <span class="d-flex align-items-center">
-                            <i class="bi bi-box-arrow-in-right me-2"></i>
-                            <span class="small">Mon compte</span>
-                        </span>
-                    </a>
-                    @endauth
-
-                    @guest
-                    <a href="{{ route('login') }}" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
-                        <span class="d-flex align-items-center">
-                            <i class="bi bi-box-arrow-in-right me-2"></i>
-                            <span class="small">Se connecter</span>
-                        </span>
-                    </a>
-                    @endguest
                 </div>
             </div>
         </nav>
 
-        @yield('content')
+        <header class="pt-5 mt-2 pb-0"></header>
+
+        <div class="container p-5">
+            <div class="card bg-light px-4 pt-5 pb-4 text-center">
+                <h2 class="h4 mb-4">Donnez votre avis sur chaque affirmation</h2>
+                <p>Vous ne pouvez pas sauter de questions mais
+                    <br>vous pouvez y revenir plus tard.</p>
+
+                <div class="col-7 mx-auto mb-4">
+                    <a href="{{route('test')}}" class="btn btn-primary text-uppercase">Commencer le test</a>
+                </div>
+                <small class="d-inline-block small text-muted fst-italic">
+                    Notre test ne doit pas être considéré comme un jugement ou une évaluation 
+                    exhaustive ou précise de votre personnalité et de votre santé 
+                    psychologique, ni être utilisé comme base pour un tel jugement 
+                    ou une telle évaluation. En cliquant sur 
+                    démarrer le test, vous acceptez nos conditions d'utilisation.
+                </small>
+            </div>
+        </div>
 
         <!-- Footer-->
         <footer class="bg-black text-center py-5">

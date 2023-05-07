@@ -6,12 +6,13 @@
         <div class="d-flex justify-content-between align-items-center flex-wrap my-4">
             <div class="row align-items-center mb-4">
                 <div class="col-auto">
-                    <img src="http://techydevs.com/demos/themes/html/disilab-demo/disilab/images/img4.jpg" alt="" class="img-profile img-border shadow-own-sm">
+                    <i class="bi bi-person rounded me-3" style="font-size: 5rem; border: 6px solid #333;"></i>
                 </div>
                 <div class="col-auto mx-0 px-0">
-                    <h6 class="h6 mb-2">Arden Smith</h6>
-                    <p class="small mb-1">United States, member since 11 years ago</p>
-                    <span>2344</span>
+                    <h6 class="h6 mb-2 text-uppercase">{{$user->name}}</h6>
+                    <p class="small fw-bold mb-3">{{$user->email}}</p>
+                    <p class="small mb-1">Membre depuis le : {{date_format($user->created_at, "d/m/Y")}}</p>
+
                 </div>
             </div>
             <form method="post" action="{{route('logout')}}">
@@ -23,7 +24,7 @@
         </div>
         <nav class="">
             <div class="nav nav-pills" id="nav-tab" role="tablist">
-                <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="true">Profil</button>
+                <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="true">Resultats</button>
                 <button class="nav-link" id="nav-feedback-tab" data-bs-toggle="tab" data-bs-target="#nav-feedback" type="button" role="tab" aria-controls="nav-feedback" aria-selected="false">Avis</button>
             </div>
         </nav>
@@ -38,20 +39,19 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-feedback" role="tabpanel" aria-labelledby="nav-feedback-tab" tabindex="0">
-            <h2 class="h6 bg-gray rounded m-0 mb-4 py-3 px-4">Partagez-nous votre avis</h2>
             <div class="border rounded px-3 py-4 text-center mb-4">
                 <div class="d-flex flex-column align-items-center">
                     <p class="text-muted mb-4">Dites-nous ce qui vous plait et ce qu’on pourrait améliorer afin<br>de vous offrir la meilleure expérience possible sur Dabel.</p>
-                    <a href="" target="_blank" class="d-block w-50 link-hover-light rounded border d-flex justify-content-between align-items-end pt-3 px-3 mb-4">
+                    <a href="" target="_blank" class="d-block w-50 text-decoration-none rounded border d-flex justify-content-between align-items-end pt-3 px-3 mb-4">
                         <p class="text-muted fw-bold">Donner mon avis <i class="bi bi-box-arrow-up-right ms-1"></i></p>
                         <p><i class="bi bi-chevron-right"></i></p>
                     </a>
                     <div class="alert alert-primary border-0 text-dark mt-4" role="alert">
                         <div class="row align-items-center">
-                            <i class="bi bi-info-circle-fill d-block col-auto text-primary ic-md"></i>
+                            <i class="bi bi-info-circle-fill d-block col-auto text-dark ic-md"></i>
                             <div class="col"> 
                                 <p class="m-0 text-start">Vous avez une question ou besoin d’un suivi individuel sur un sujet ?<br>Trouvez de nombreuses réponses dans 
-                                    le <a class="text-decoration-underline text-dark fw-bold" href="Centre d’aide">centre d'aide</a> ou <a class="text-decoration-underline text-dark fw-bold" href="">contactez-nous</a>.</p>
+                                    le <a class="text-decoration-underline text-dark fw-bold" href="Centre d’aide">centre d'aide</a> ou <a class="text-decoration-underline text-dark fw-bold" href="{{route('contact')}}">contactez-nous</a>.</p>
                             </div>
                         </div>
                     </div>

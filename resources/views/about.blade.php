@@ -18,9 +18,9 @@
                 <div class="col-lg-6 col-xl-6">
                     <p class="text-dark fw-bold">Qui sommes-nous ?</p>
                     <div class="mb-5 mb-lg-0">
-                        <h1 class="display-5 mb-3">Ecrire le scénario de l'avenir par l'éducation</h1>
-                        <p class="">Nous préconisons de rendre l'éducation accessible partout et par tous.</p>
-                        <p class="mb-5">Notre plateforme publie régulièrement de nouveaux cours dans lesquels 80% du contenu est gratuitement accessible afin de ne laisser personne de côté.</p>
+                        <h1 class="display-5 mb-3">Déviner le scénario de l'avenir par Orinix</h1>
+                        <p class="">Nous sommes une équipe de personnes passionnées par l'interprétation des rêves.</p>
+                        <p class="mb-5">Nous avons créé un test pour vous aider à comprendre vos rêves, afin d'avoir une idée claire du message que votre esprit essaie de vous faire passer.</p>
                         
                     </div>
                 </div>
@@ -42,9 +42,9 @@
                 <img src="assets/img/online_collaboration.svg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 col-xl-6 text-center text-lg-start">
-                <h2 class="display-7 mb-3">Partager et développer les connaissances</h2>
-                <p class="lh-lg">La mission de Dabel est de partager et d'enrichir les connaissances du monde. Une grande partie des connaissances qui seraient précieuses pour de nombreuses personnes n'est actuellement accessible qu'à quelques-uns, soit enfermée dans la tête des gens, soit accessible uniquement à des groupes sélectionnés.</p>
-                <p class="lh-lg">Nous voulons mettre en relation les personnes qui possèdent des connaissances avec celles qui en ont besoin, réunir des personnes ayant des points de vue différents afin qu'elles puissent mieux se comprendre, et donner à chacun la possibilité de partager ses connaissances au profit du reste du monde.</p>
+                <h2 class="display-7 mb-3">Nous étudions avec dévouement le cerveau et ses comportements</h2>
+                <p class="lh-lg">Nous étudions comment les traits de personnalité influencent nos comportements.</p>
+                <p class="lh-lg">Nous aidons les gens à améliorer leur bien-être personnel et professionnel en leur permettant de mieux connaître leur personnalité. Nous privilégions la qualité à la quantité, l'objectif est de fournir des informations utiles pour votre avenir.</p>
             </div>
         </div>
         
@@ -59,17 +59,17 @@
             <div class="col-lg-4">
                 <img src="assets/img/chart.png" alt="" class="mb-4">
                 <h3 class="h5 mb-3">Apprendre, se développer</h3>
-                <p>Notre engagement, ce n’est pas seulement de vous offrir des cours de qualité mais aussi nous rassurer que vous évoluez à travers des quiz et exercices.</p>
+                <p>Notre engagement, ce n’est pas seulement de vous offrir des tests de qualité mais aussi nous rassurer que vous évoluez à travers nos interprétations.</p>
             </div>
             <div class="col-lg-4">
                 <img src="assets/img/clock.png" alt="" class="mb-2">
                 <h3 class="h5 mb-3">Votre avenir, notre priorité</h3>
-                <p>Notre objectif est de vous permettre de réaliser vos ambitions : nous étudions les metiers prommeteurs et développons nos cours à partir de ces compétences.</p>
+                <p>Notre objectif est de vous permettre de réaliser vos ambitions : nous étudions en profondeur vos réponses et développons nos analyses à partir de ces interprétations.</p>
             </div>
             <div class="col-lg-4">
                 <img src="assets/img/connectivity.png" alt="" class="mb-4">
                 <h3 class="h5 mb-3">Une communauté unie</h3>
-                <p>L'entraide sur Dabel est l'un des points phares. Notre forum permet à nos membres d'echanger, partager leurs idées et poser leurs questions sur des sujets divers</p>
+                <p>L'entraide sur Orinix est l'un des points phares. Notre formulaire de contact permet à nos membres de nous parler d'eux, partager leurs idées et poser leurs questions sur leurs rêves</p>
             </div>
         </div>
     </div>
