@@ -8,8 +8,8 @@
                 <div class="col-lg-6">
                     <!-- Mashead text and app badges-->
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                        <h1 class="display-1 lh-1 mb-3">Showcase your app beautifully.</h1>
-                        <p class="lead fw-normal text-muted mb-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                        <h1 class="display-1 lh-1 mb-3">Vos rêves en disent plus.</h1>
+                        <p class="lead fw-normal text-muted mb-5">Avec ce test de personnalité, vous découvrirez ce que votre esprit essaie de te communiquer à travers vos rêves.</p>
                         <a class="btn btn-danger text-uppercase py-3 px-4 rounded" href="https://startbootstrap.com/theme/new-age" target="_blank">Lancer le test</a>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <!-- Feature item-->
                     <div class="text-center">
                         <img src="assets/img/undraw_projections.svg" style="width: 18rem" class="img-fluid mb-3" alt="">
-                        <h3 class="font-alt mb-4">Obtenez des informations<br>précieuses sur votre vie</h3>
+                        <h3 class="font-alt mb-4">Obtenez des informations<br>précieuses sur votre avenir</h3>
                         <p class="text-muted mb-0">90% des utilisateurs considèrent qu'ils ont pu prendre des mesures concrètes pour améliorer des domaines de leur vie personnelle et professionnelle.</p>
                     </div>
                 </div>
@@ -50,8 +50,8 @@
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-xl-8">
-                    <div class="h2 fs-1 text-white mb-4">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</div>
-                    <a href="#" class="btn btn-warning text-uppercase">Commencer le test</a>
+                    <div class="h2 fs-1 text-white mb-4">"Les gens adorent passer ce test. Ayez une idée de votre avenir à travers vos aspirations"</div>
+                    <a href="#" class="btn btn-light text-uppercase">Commencer le test</a>
                 </div>
             </div>
         </div>
@@ -65,25 +65,25 @@
                 <div class="col-lg-4 col-md-6 text-center">
                     <!-- Feature item-->
                     <div class="text-center">
-                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                        <h3 class="font-alt">Free to Use</h3>
-                        <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+                        <i class="bi bi-back icon-feature text-gradient d-block mb-3"></i>
+                        <h3 class="font-alt">Soyez prêt</h3>
+                        <p class="text-muted mb-0">Assurez-vous d'être dans un environnement confortable où vous pourrez vous concentrer.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <!-- Feature item-->
                     <div class="text-center">
-                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                        <h3 class="font-alt">Free to Use</h3>
-                        <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+                        <i class="bi bi-play-circle icon-feature text-gradient d-block mb-3"></i>
+                        <h3 class="font-alt">Faites le test</h3>
+                        <p class="text-muted mb-0">Répondez aux multiples questions sur vous-même en étant le plus expilicite et plus honnête possible</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <!-- Feature item-->
                     <div class="text-center">
-                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                        <h3 class="font-alt">Free to Use</h3>
-                        <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+                        <i class="bi bi-check-circle icon-feature text-gradient d-block mb-3"></i>
+                        <h3 class="font-alt">Vos résultats</h3>
+                        <p class="text-muted mb-0">Obtenez ce rapport si vous souhaitez jeter un coup d'œil pour découvrir où vous vous situez !</p>
                     </div>
                 </div>
             </div>

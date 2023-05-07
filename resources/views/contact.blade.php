@@ -55,7 +55,7 @@
                     </div>
                     <div class="d-flex align-items-center mb-4">
                         <i class="bi bi-envelope ic-basic text-info me-3"></i>
-                        <span>contact@dabel.com</span>
+                        <span>contact@onirix.com</span>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="bi bi-geo-alt ic-basic text-info me-3"></i>

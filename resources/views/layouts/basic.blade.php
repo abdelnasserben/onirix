@@ -30,9 +30,9 @@
                         <li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('about') }}">A propos</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="{{ route('faq') }}">FAQ</a></li>
                     </ul>
-                    <a href="{{ route('login') }}" class="btn btn-success rounded-pill px-3 mb-2 mb-lg-0">
+                    <a href="{{ route('login') }}" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
                         <span class="d-flex align-items-center">
-                            <i class="bi-chat-text-fill me-2"></i>
+                            <i class="bi bi-box-arrow-in-right me-2"></i>
                             <span class="small">Se connecter</span>
                         </span>
                     </a>
