@@ -62,120 +62,122 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="container row justify-content-center px-3">
-                        <form action="">
+                    <form method="post" action="{{route('login')}}">
+                        @csrf
 
-                        </form>
-                        <div class="form_1 data_info col-lg-6">
-                            <h2 class="text-center mb-3">Infos générales</h2>
-                            <div class="row g-3 mb-3">
-                                <div class="col-12">
-                                    <label class="fw-bold mb-2">Quel est votre genre ?</label>
-                                    <select class="form-select" aria-label="Default select example" required>
-                                        <option selected>Homme</option>
-                                        <option value="1">Femme</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Quel est votre âge ?</label>
-                                    <input type="number" class="form-control" id="exampleFormControlInput1" required>
+                        <div class="container row justify-content-center px-3">
+                            
+                            <div class="form_1 data_info col-lg-6">
+                                <h2 class="text-center mb-3">Infos générales</h2>
+                                <div class="row g-3 mb-3">
+                                    <div class="col-12">
+                                        <label class="fw-bold mb-2">Quel est votre genre ?</label>
+                                        <select class="form-select" aria-label="Default select example" required>
+                                            <option selected>Homme</option>
+                                            <option value="1">Femme</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Quel est votre âge ?</label>
+                                        <input type="number" class="form-control" id="exampleFormControlInput1" required>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="form_2 data_info col-lg-6" style="display: none;">
-                            <h2 class="text-center mb-3">Qu'avez-vous vu ?</h2>
-                            <div class="row g-3 mb-3">
-                                <div class="col-12">
-                                    <label class="fw-bold mb-2">Cochez ce qui est vraie</label>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                          Je me disputais avec un collègue au boulot
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                      <label class="form-check-label" for="flexCheckChecked">
-                                        J'étais avec mon amour
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
+                            <div class="form_2 data_info col-lg-6" style="display: none;">
+                                <h2 class="text-center mb-3">Qu'avez-vous vu ?</h2>
+                                <div class="row g-3 mb-3">
+                                    <div class="col-12">
+                                        <label class="fw-bold mb-2">Cochez ce qui est vraie</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                            Je me disputais avec un collègue au boulot
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                                         <label class="form-check-label" for="flexCheckChecked">
-                                          J'ai vu un proche tombé malade
+                                            J'étais avec mon amour
                                         </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                            J'ai vu un proche tombé malade
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                            J'étais en voyage à l'etranger
+                                            </label>
+                                        </div>
                                     </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                        <label class="form-check-label" for="flexCheckChecked">
-                                          J'étais en voyage à l'etranger
-                                        </label>
+                                </div>
+                            </div>
+                            <div class="form_3 data_info col-lg-6" style="display: none;">
+                                <h2 class="text-center mb-3">Qu'est-ce qui s'est passé après ?</h2>
+                                <div class="row g-3 mb-3">
+                                    <div class="col-12">
+                                        <label class="fw-bold mb-2">Le sommeil</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                            J'ai pu me rendormir
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                            J'en ai fais des cauchemars
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="fw-bold mb-2">Votre sentiment</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                            Heureux
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                            Triste
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_4 data_info col-lg-6" style="display: none;">
+                                <h2 class="text-center mb-3">Autres informations</h2>
+                                <div class="row g-3 mb-3">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Décrivez votre rêve si vous avez d'autres choses nécessaire</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="form_3 data_info col-lg-6" style="display: none;">
-                            <h2 class="text-center mb-3">Qu'est-ce qui s'est passé après ?</h2>
-                            <div class="row g-3 mb-3">
-                                <div class="col-12">
-                                    <label class="fw-bold mb-2">Le sommeil</label>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                        <label class="form-check-label" for="flexRadioDefault1">
-                                          J'ai pu me rendormir
-                                        </label>
-                                      </div>
-                                      <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                        <label class="form-check-label" for="flexRadioDefault2">
-                                          J'en ai fais des cauchemars
-                                        </label>
-                                      </div>
-                                </div>
-                                <div class="col-12">
-                                    <label class="fw-bold mb-2">Votre sentiment</label>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                        <label class="form-check-label" for="flexRadioDefault1">
-                                          Heureux
-                                        </label>
-                                      </div>
-                                      <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                        <label class="form-check-label" for="flexRadioDefault2">
-                                          Triste
-                                        </label>
-                                      </div>
-                                </div>
+                        <div class="btns_wrap">
+                            <div class="common_btns form_1_btns">
+                                <button type="button" class="btn_next">Suivant <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
+                            </div>
+                            <div class="common_btns form_2_btns" style="display: none;">
+                                <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Précedent</button>
+                                <button type="button" class="btn_next">Suivant <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
+                            </div>
+                            <div class="common_btns form_3_btns" style="display: none;">
+                                <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Précedent</button>
+                                <button type="button" class="btn_next">Suivant <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
+                            </div>
+                            <div class="common_btns form_4_btns" style="display: none;">
+                                <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Précedent</button>
+                                <button type="submit" class="btn_done">Valider</button>
                             </div>
                         </div>
-                        <div class="form_4 data_info col-lg-6" style="display: none;">
-                            <h2 class="text-center mb-3">Autres informations</h2>
-                            <div class="row g-3 mb-3">
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Décrivez votre rêve si vous avez d'autres choses nécessaire</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="btns_wrap">
-                        <div class="common_btns form_1_btns">
-                            <button type="button" class="btn_next">Suivant <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
-                        </div>
-                        <div class="common_btns form_2_btns" style="display: none;">
-                            <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Précedent</button>
-                            <button type="button" class="btn_next">Suivant <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
-                        </div>
-                        <div class="common_btns form_3_btns" style="display: none;">
-                            <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Précedent</button>
-                            <button type="button" class="btn_next">Suivant <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
-                        </div>
-                        <div class="common_btns form_4_btns" style="display: none;">
-                            <button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Précedent</button>
-                            <button type="button" class="btn_done">Valider</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
